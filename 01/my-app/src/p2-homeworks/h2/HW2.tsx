@@ -3,7 +3,7 @@ import Affairs from './Affairs'
 import c from './Affairs.module.css'
 
 // types
-export type AffairPriorityType = 'low' | 'middle' | 'high'
+export type AffairPriorityType = 'low' | 'medium' | 'high'
 
 export type AffairType = {
     _id: number
@@ -18,7 +18,7 @@ const defaultAffairs: Array<AffairType> = [
     {_id: 2, name: 'To get drunk', priority: 'high'},
     {_id: 3, name: 'To annoy Stan', priority: 'low'},
     {_id: 4, name: 'To fool Steve... again ', priority: 'high'},
-    {_id: 5, name: 'To throw a complete tantrum', priority: 'middle'},
+    {_id: 5, name: 'To throw a complete tantrum', priority: 'medium'},
 ]
 
 // pure helper functions
@@ -31,8 +31,8 @@ export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): A
         newPriorityAffairs = affairs.filter(a => a.priority === 'low')
         return newPriorityAffairs
     }
-    if (filter === 'middle') {
-        newPriorityAffairs = affairs.filter(a => a.priority === 'middle')
+    if (filter === 'medium') {
+        newPriorityAffairs = affairs.filter(a => a.priority === 'medium')
         return newPriorityAffairs
     }
     if (filter === 'high') {
