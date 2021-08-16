@@ -1,2 +1,2 @@
-# H-A-React-Ignat-
+# H-A-React-Ignat
 Tasks from mentor
