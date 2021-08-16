@@ -60,7 +60,7 @@ function HW4() {
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                    Click now! {/*// этот текст попадёт в children*/}
+                    Click now!!! {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
