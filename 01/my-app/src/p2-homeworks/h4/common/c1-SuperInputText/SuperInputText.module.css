@@ -1,21 +1,14 @@
-/*
-.input:focus {
-    outline: none;
-    border: darkslategray solid 1px;
-}
-*/
-
-
 .superInput {
     margin: 10px;
     background-color: lavender;
     color: gold;
+    border-bottom-color: aqua;
 }
 
 .errorInput {
     font-family: inherit;
     width: 200px;
-    height: 10px;
+    height: 8px;
     border: 0;
     border-bottom: 3px solid darkred;
     outline: 0;
@@ -43,10 +36,10 @@
 }
 
 
-.input__field {
+.inputField {
     font-family: inherit;
     width: 200px;
-    height: 10px;
+    height: 8px;
     border: 0;
     border-bottom: 2px solid gray;
     outline: 0;
@@ -57,8 +50,7 @@
 }
 
 
-.input__field:focus {
+.inputField:focus {
     font-weight: 700;
     border-width: 3px;
-
 }
