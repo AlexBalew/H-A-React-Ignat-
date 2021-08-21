@@ -1,12 +1,64 @@
+/*
+.input:focus {
+    outline: none;
+    border: darkslategray solid 1px;
+}
+*/
+
+
 .superInput {
-color: gold;
+    margin: 10px;
+    background-color: lavender;
+    color: gold;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    font-family: inherit;
+    width: 200px;
+    height: 10px;
+    border: 0;
+    border-bottom: 3px solid darkred;
+    outline: 0;
+    font-size: 100%;
+    color: rgba(2, 37, 47, 0.86);
+    padding: 7px 0;
+    background: darkred;
+    transition: border-color 0.2s;
 }
 
+
+.errorInput:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    background: brown;
+}
+
+
+
 .error {
-    color: red;
+    color: brown;
+    height: 21px;
+    margin-left: 10px;
+}
+
+
+.input__field {
+    font-family: inherit;
+    width: 200px;
+    height: 10px;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 100%;
+    color: rgba(2, 37, 47, 0.86);
+    padding: 7px 0;
+    background: rgba(39, 115, 113, 0.45);
+}
+
+
+.input__field:focus {
+    font-weight: 700;
+    border-width: 3px;
+
 }
