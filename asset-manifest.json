@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/H-A-React-Ignat-/static/css/main.66f8fa93.chunk.css",
-    "main.js": "/H-A-React-Ignat-/static/js/main.ddd6e4ee.chunk.js",
-    "main.js.map": "/H-A-React-Ignat-/static/js/main.ddd6e4ee.chunk.js.map",
+    "main.css": "/H-A-React-Ignat-/static/css/main.a4f0b4b1.chunk.css",
+    "main.js": "/H-A-React-Ignat-/static/js/main.44eee367.chunk.js",
+    "main.js.map": "/H-A-React-Ignat-/static/js/main.44eee367.chunk.js.map",
     "runtime-main.js": "/H-A-React-Ignat-/static/js/runtime-main.3e527ccf.js",
     "runtime-main.js.map": "/H-A-React-Ignat-/static/js/runtime-main.3e527ccf.js.map",
-    "static/js/2.a4d14384.chunk.js": "/H-A-React-Ignat-/static/js/2.a4d14384.chunk.js",
-    "static/js/2.a4d14384.chunk.js.map": "/H-A-React-Ignat-/static/js/2.a4d14384.chunk.js.map",
+    "static/js/2.481af752.chunk.js": "/H-A-React-Ignat-/static/js/2.481af752.chunk.js",
+    "static/js/2.481af752.chunk.js.map": "/H-A-React-Ignat-/static/js/2.481af752.chunk.js.map",
     "index.html": "/H-A-React-Ignat-/index.html",
-    "static/css/main.66f8fa93.chunk.css.map": "/H-A-React-Ignat-/static/css/main.66f8fa93.chunk.css.map",
-    "static/js/2.a4d14384.chunk.js.LICENSE.txt": "/H-A-React-Ignat-/static/js/2.a4d14384.chunk.js.LICENSE.txt"
+    "static/css/main.a4f0b4b1.chunk.css.map": "/H-A-React-Ignat-/static/css/main.a4f0b4b1.chunk.css.map",
+    "static/js/2.481af752.chunk.js.LICENSE.txt": "/H-A-React-Ignat-/static/js/2.481af752.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3e527ccf.js",
-    "static/js/2.a4d14384.chunk.js",
-    "static/css/main.66f8fa93.chunk.css",
-    "static/js/main.ddd6e4ee.chunk.js"
+    "static/js/2.481af752.chunk.js",
+    "static/css/main.a4f0b4b1.chunk.css",
+    "static/js/main.44eee367.chunk.js"
   ]
 }
