@@ -47,13 +47,13 @@
 
 .time:before {
     content: "";
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     position: absolute;
     border-left: 25px solid transparent ;
     border-right: 20px solid transparent;
     border-top: 30px solid  transparent;
     border-bottom: 20px solid lavender;
     left: -15px;
-    bottom: 0px;
+    bottom: 0;
 }
