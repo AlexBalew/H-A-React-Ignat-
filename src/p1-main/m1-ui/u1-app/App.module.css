@@ -3,3 +3,8 @@
 background-position: center;
     background-size: cover;
 }
+
+.hw7 {
+    display: flex;
+    column-gap: 10px;
+}
