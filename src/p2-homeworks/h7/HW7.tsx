@@ -16,12 +16,12 @@ function HW7() {
             <br/>
 
             <div className={s.hw7}>
-                <SuperSelect
+                <SuperSelect className={s.h}
                     options={arr}
                     value={value}
                     onChangeOption={onChangeOption}
                 />
-                <SuperRadio
+                <SuperRadio className={s.w}
                     name={'radio'}
                     options={arr}
                     value={value}

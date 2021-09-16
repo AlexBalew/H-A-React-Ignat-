@@ -1,0 +1,35 @@
+.container {
+    background: rgba(39, 115, 113, 0.45);
+    margin: 10px;
+    max-width: 350px;
+    border: 1px solid darkcyan;
+    border-radius: 20px;
+}
+
+.buttons {
+    border-radius: 100px;
+    background: rgba(37, 119, 116, 0.45);
+    width: 320px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 4fr;
+    margin: 10px;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 10px;
+    color: #393b48;
+    text-shadow: 0 1px 0 #79485f7a;
+}
+
+.age {
+    text-align: center;
+}
