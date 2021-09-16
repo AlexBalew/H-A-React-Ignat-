@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/H-A-React-Ignat-/static/css/main.e28ed6c8.chunk.css",
+    "main.css": "/H-A-React-Ignat-/static/css/main.7f85f048.chunk.css",
     "main.js": "/H-A-React-Ignat-/static/js/main.9cdfeeb4.chunk.js",
     "main.js.map": "/H-A-React-Ignat-/static/js/main.9cdfeeb4.chunk.js.map",
     "runtime-main.js": "/H-A-React-Ignat-/static/js/runtime-main.3e527ccf.js",
@@ -8,13 +8,13 @@
     "static/js/2.5f9cbd53.chunk.js": "/H-A-React-Ignat-/static/js/2.5f9cbd53.chunk.js",
     "static/js/2.5f9cbd53.chunk.js.map": "/H-A-React-Ignat-/static/js/2.5f9cbd53.chunk.js.map",
     "index.html": "/H-A-React-Ignat-/index.html",
-    "static/css/main.e28ed6c8.chunk.css.map": "/H-A-React-Ignat-/static/css/main.e28ed6c8.chunk.css.map",
+    "static/css/main.7f85f048.chunk.css.map": "/H-A-React-Ignat-/static/css/main.7f85f048.chunk.css.map",
     "static/js/2.5f9cbd53.chunk.js.LICENSE.txt": "/H-A-React-Ignat-/static/js/2.5f9cbd53.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3e527ccf.js",
     "static/js/2.5f9cbd53.chunk.js",
-    "static/css/main.e28ed6c8.chunk.css",
+    "static/css/main.7f85f048.chunk.css",
     "static/js/main.9cdfeeb4.chunk.js"
   ]
 }
