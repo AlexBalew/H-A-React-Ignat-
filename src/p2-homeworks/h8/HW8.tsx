@@ -53,10 +53,10 @@ function HW8() {
                     <div><SuperButton onClick={verificationOfMajority}>verification of majority</SuperButton></div>
                 </div>
             </div>
-            <hr/>
+
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativePeople/>*/}
-            <hr/>
+
         </div>
     )
 }

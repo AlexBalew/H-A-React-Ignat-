@@ -48,12 +48,10 @@
     z-index: 7;
 }
 
-.button:focus {
-    outline: darkcyan solid 1px;
-}
+
 
 .button:active {
-    background: cornflowerblue;
+    background: teal;
 }
 
 .button:disabled {

@@ -13,7 +13,7 @@ function HW7() {
             <hr/>
             Home assignment 7
             <hr/>
-            <br/>
+
 
             <div className={s.hw7}>
                 <SuperSelect className={s.h}
@@ -28,7 +28,7 @@ function HW7() {
                     onChangeOption={onChangeOption}
                 />
             </div>
-            <hr/>
+
         </div>
     )
 }

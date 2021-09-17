@@ -1,0 +1,31 @@
+.container {
+    margin-left: 120px;
+    max-width: 120px;
+    background-color: rgba(39, 115, 113, 0.45);
+    position: relative;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.timeString {
+    margin-top: 5px;
+    position: absolute;
+    left: 18px;
+    top: 0;
+    max-width: 105px;
+
+}
+
+.dateString {
+    top: 30px;
+    left: 7px;
+    position: absolute;
+    max-width: 105px;
+
+}
+
+.buttons {
+    position: absolute;
+    bottom: 0;
+}
+

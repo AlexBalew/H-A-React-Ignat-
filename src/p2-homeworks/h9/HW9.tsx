@@ -5,7 +5,9 @@ function HW9() {
     return (
         <div>
             <hr/>
-            homeworks 9
+            Home assignment 9
+
+            <hr/>
 
             {/*should work (должно работать)*/}
             <Clock/>
@@ -13,7 +15,7 @@ function HW9() {
             <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeClock/>*/}
-            <hr/>
+
         </div>
     )
 }
