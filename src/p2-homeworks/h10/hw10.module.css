@@ -1,0 +1,11 @@
+.loadingContainer {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.superButton {
+    margin-top: 55px;
+}
