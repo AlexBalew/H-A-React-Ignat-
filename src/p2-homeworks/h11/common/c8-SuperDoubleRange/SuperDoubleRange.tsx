@@ -46,7 +46,7 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
                 size={"medium"}
                 value={value3}
                 onChange={handleChange1}
-                valueLabelDisplay="auto"
+                //valueLabelDisplay="off"
                 style={{color: 'teal'}}
                 disableSwap
             />
