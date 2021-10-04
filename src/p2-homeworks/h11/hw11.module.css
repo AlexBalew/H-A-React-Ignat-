@@ -1,0 +1,22 @@
+.rangeBlock {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    background-color: inherit;
+    justify-content: flex-start;
+    column-gap: 18px;
+    margin-left: 20px;
+}
+
+.doubleRangeBlock {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    background-color: inherit;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.span {
+    width: 30px;
+}

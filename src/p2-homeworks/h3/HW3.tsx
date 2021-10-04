@@ -16,6 +16,7 @@ function HW3() {
             _id: v1(),
             name
         }
+        if(newUser.name !== '')
         setUsers([newUser, ...users])
     }
 
