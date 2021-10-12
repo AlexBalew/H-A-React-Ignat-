@@ -1,14 +1,30 @@
-const initState = {
+//export type ThemeType = 'default' | 'dark' | 'red' | 'soft'
 
-};
+type InitStateType = {
+    exactTheme: string
+}
 
-export const themeReducer = (state = initState, action: any): any => { // fix any
+const initState: InitStateType = {
+    exactTheme: 'default'
+}
+
+
+export const themeReducer = (state: InitStateType = initState, action: AllActionsType): InitStateType => {
     switch (action.type) {
-        case "": {
-            return state;
+        case 'CHANGE_THEME': {
+            return {...state, exactTheme: action.exactTheme};
         }
-        default: return state;
+        default:
+            return state;
     }
 };
 
-export const changeThemeC = (): any => {}; // fix any
+type AllActionsType = ReturnType<typeof ChangeThemeAC>
+
+
+export const ChangeThemeAC = (exactTheme: string) => {
+    return {
+        type: 'CHANGE_THEME',
+        exactTheme
+    } as const
+};

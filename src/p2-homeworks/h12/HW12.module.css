@@ -1,23 +1,24 @@
+
 .dark {
     background: dimgrey;
 }
 
 .dark-text {
-    color: aliceblue;
+    color: #dddddd;
 }
 
 .red {
-    background: lightcoral;
+    background: rgba(179,5,7,0.67);
 }
 
 .red-text {
-    color: aqua;
+    color: #282c34;
 }
 
-.some {
-    background: lightgreen;
+.soft {
+    background: #b9b597;
 }
 
-.some-text {
+.soft-text {
     color: darkslateblue;
 }
