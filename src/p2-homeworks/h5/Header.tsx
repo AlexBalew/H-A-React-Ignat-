@@ -13,7 +13,7 @@ function Header() {
                 <span className="third"></span>
             </div>
             <nav className={s.menu}>
-                <NavLink to='/pre-junior' className={s.nav}>Pre-Junior </NavLink>
+                <NavLink to='/pre-junior'>Pre-Junior </NavLink>
                 <NavLink to='/junior'>Junior </NavLink>
                 <NavLink to='/adv-junior'>Adv-Junior </NavLink>
             </nav>

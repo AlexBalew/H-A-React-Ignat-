@@ -63,8 +63,9 @@ function HW2() {
     return (
         <div>
             <hr/>
+            <div style={{marginBottom:'10px'}}>
             Home assignment 2
-            <hr/>
+            </div>
             <div className={c.titleName}>
             <span> Affairs </span><span> Priority </span>
             </div>
@@ -74,10 +75,6 @@ function HW2() {
                 deleteAffairCallback={deleteAffairCallback}
             />
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeAffairs/>*/}
-            <hr/>
         </div>
     )
 }

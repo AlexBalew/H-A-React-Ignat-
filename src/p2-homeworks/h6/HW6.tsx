@@ -17,9 +17,9 @@ function HW6() {
     return (
         <div>
             <hr/>
+            <div style={{marginBottom:'10px'}}>
             Home assignment 6
-
-            {/*should work (должно работать)*/}
+            </div>
             <div>
                 <SuperEditableSpan
                     value={value}
@@ -30,9 +30,6 @@ function HW6() {
             <SuperButton onClick={save}>save</SuperButton>
             <SuperButton onClick={restore}>restore</SuperButton>
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperEditableSpan/>*/}
             <hr/>
         </div>
     )

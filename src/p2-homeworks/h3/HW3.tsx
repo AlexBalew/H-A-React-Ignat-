@@ -23,15 +23,10 @@ function HW3() {
     return (
         <div>
             <hr/>
+            <div style={{marginBottom:'10px'}}>
             Home assignment 3
-            <hr/>
-
+            </div>
             <GreetingContainer users={users} addUserCallback={addUserCallback}/>
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeGreeting/>*/}
-            <hr/>
         </div>
     )
 }

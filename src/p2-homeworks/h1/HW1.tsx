@@ -14,8 +14,9 @@ function HW1() {
     return (
         <div>
             <hr/>
+            <div style={{marginBottom:'10px'}}>
             Home assignment 1
-            <hr/>
+            </div>
             <div>
                 <Message
                     avatar={messageData.avatar}
@@ -24,10 +25,6 @@ function HW1() {
                     time={messageData.time}
                 />
             </div>
-
-
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeMessage/>*/}
 
         </div>
     )
