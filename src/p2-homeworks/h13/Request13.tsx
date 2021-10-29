@@ -26,7 +26,7 @@ function Request13() {
     }
 
     return (
-        <div>
+        <div>test
             <div style={{margin: '10px'}}>Home assignment 13</div>
             <div className={s.request}>
             <SuperButton onClick={changeStatus}>request</SuperButton>
