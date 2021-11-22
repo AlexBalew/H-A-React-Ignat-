@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Affairs from './Affairs'
 import c from './Affairs.module.css'
 
-// types
+
 export type AffairPriorityType = 'low' | 'medium' | 'high'
 
 export type AffairType = {
@@ -12,7 +12,7 @@ export type AffairType = {
 }
 export type FilterType = 'all' | AffairPriorityType
 
-// constants
+
 const defaultAffairs: Array<AffairType> = [
     {_id: 1, name: 'To take care of wigs', priority: 'low'},
     {_id: 2, name: 'To get drunk', priority: 'high'},
@@ -21,7 +21,6 @@ const defaultAffairs: Array<AffairType> = [
     {_id: 5, name: 'To throw a complete tantrum', priority: 'medium'},
 ]
 
-// pure helper functions
 export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): AffairType[] => {
     let newPriorityAffairs = affairs // need to fix any
     if (filter === 'all') {
@@ -42,21 +41,20 @@ export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): A
     return affairs
 }
 
-export const deleteAffair = (affairs: Array<AffairType>, _id: number) => {// need to fix any
-    return (affairs.filter(a => a._id !== _id))    // need to fix
+export const deleteAffair = (affairs: Array<AffairType>, _id: number) => {
+    return (affairs.filter(a => a._id !== _id))
 }
 
 function HW2() {
 
-    const [affairs, setAffairs] = useState<Array<AffairType>>(defaultAffairs) // need to fix any
+    const [affairs, setAffairs] = useState<Array<AffairType>>(defaultAffairs)
 
     const [filter, setFilter] = useState<FilterType>('all')
 
 
     const filteredAffairs = filterAffairs(affairs, filter)
 
-    const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id)) // need to fix any
-
+    const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id))
 
 
 

@@ -10,12 +10,11 @@ type AffairsPropsType = { // need to fix any
 }
 
 function Affairs(props: AffairsPropsType) {
-    const mappedAffairs = props.data.map((a: AffairType) => (
+    const mappedAffairs = props.data.map((affair: AffairType) => (
         <div>
-
-        <Affair // should work
-            key={a._id} // кеи ОБЯЗАТЕЛЬНЫ в 99% - так что лучше их писать всегда при создании компонент в мапе
-            affair={a}
+        <Affair
+            key={affair._id}
+            affair={affair}
             deleteAffairCallback={props.deleteAffairCallback}
         />
         </div>
@@ -23,7 +22,7 @@ function Affairs(props: AffairsPropsType) {
 
     const setAll = () => {
         props.setFilter('all')
-    } // need to fix
+    }
     const setHigh = () => {
         props.setFilter('high')
     }
